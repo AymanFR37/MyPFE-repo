@@ -1,0 +1,27 @@
+#server:
+#  port: 8090
+#  servlet:
+#    context-path: /api
+
+#spring:
+#  datasource:
+#    url: jdbc:oracle:thin:@localhost:1521:xe
+#    username: cigma
+#    password: 123
+
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/mypfe
+#    username: root
+#  profils:
+#    active: local
+
+#logging:
+#  level:
+#    ma.mypfe.students: ERROR
+
+
+spring:
+  profiles:
+    active: local
