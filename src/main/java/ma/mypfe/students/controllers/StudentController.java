@@ -14,28 +14,29 @@ import java.util.List;
 @RequestMapping("/students")
 public class StudentController {
     private final static Logger LOGGER = LoggerFactory.getLogger(StudentController.class);
+
     @Autowired
     private StudentService studentService;
 
-    @PostMapping
-    public Long save(StudentDto dto) {
-        LOGGER.debug("start save methode");
+    @PostMapping("/add")
+    public Long save(@RequestBody StudentDto dto) {
+        LOGGER.debug("start save methode dto :{}",dto);
         return studentService.save(dto);
     }
 
-    @PutMapping
-    public Boolean update(StudentDto dto) {
-        LOGGER.debug("start update methode");
+    @PutMapping("/update")
+    public Long update(@RequestBody StudentDto dto) {
+        LOGGER.debug("start update methode dto :{}",dto);
         return studentService.update(dto);
     }
 
-    @DeleteMapping
-    public Boolean delete(Long id) {
-        LOGGER.debug("start delete methode");
+    @DeleteMapping("/delete/{id}")
+    public Boolean delete(@PathVariable("id") Long id) {
+        LOGGER.debug("start delete methode dto");
         return studentService.deleteById(id);
     }
 
-    @GetMapping
+    @GetMapping("getStudents")
     public List<StudentDto> selectAll() {
         LOGGER.debug("start selectAll methode");
         return studentService.selectAll();

@@ -7,6 +7,9 @@ spring:
     url: jdbc:mysql://localhost:3306/mypfe
     username: root
 
+
 logging:
   level:
+    org.springframework.web: DEBUG
     ma.mypfe.students: DEBUG
+    org.hibernate: ERROR
