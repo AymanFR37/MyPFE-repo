@@ -39,7 +39,7 @@
     </root>
 
     <!-- LOG "com.baeldung*" at TRACE level -->
-    <logger name="ma.mypfe.students" level="debug" additivity="false">
+    <logger name="ma.mypfe.students" level="trace" additivity="false">
         <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </logger>
