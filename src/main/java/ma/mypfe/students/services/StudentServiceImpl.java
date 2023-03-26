@@ -6,25 +6,28 @@ import ma.mypfe.students.repositories.StudentRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service(value = "serv1")
 public class StudentServiceImpl implements StudentService{
     private final static Logger LOGGER = LoggerFactory.getLogger(StudentServiceImpl.class);
-    @Autowired
-    @Qualifier("repo1")//hadi bach ila kan endna bzef dyl les classe d'implementation kankhtaro whda
     private StudentRepository studentRepository;
+
+    public StudentServiceImpl(StudentRepository studentRepository) {
+        this.studentRepository = studentRepository;
+    }
+
     @Autowired
     private StudentMapper studentMapper;
 
     @Override
-    public Long save(StudentDto dto){
+    public StudentDto save(StudentDto dto){
+
         LOGGER.debug("start save methode dto :{}",dto);
         StudentDto toDto = studentMapper.convertEntityToDto(studentRepository.save(studentMapper.convertDtoToEntity(dto)));
-        return toDto.getId();
+        return toDto;
     }
 
     @Override
@@ -44,6 +47,6 @@ public class StudentServiceImpl implements StudentService{
     @Override
     public List<StudentDto> selectAll(){
         LOGGER.debug("start selectAll methode");
-        return studentMapper.convertEntityToDto(studentRepository.findAll());
+        return studentMapper.convertEntitiesToDtos(studentRepository.findAll());
     }
 }

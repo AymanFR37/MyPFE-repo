@@ -1,0 +1,615 @@
+2023-03-23 22:44:37,128 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyPfeApplication using Java 1.8.0_351 on LAPTOP-MHAL7KCU with PID 7992 (D:\JAVA CIGMA\MyPFE\target\classes started by Ayman in D:\JAVA CIGMA\MyPFE)
+2023-03-23 22:44:37,136 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-03-23 22:44:37,137 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-23 22:44:39,268 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 22:44:39,440 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2023-03-23 22:44:41,397 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-03-23 22:44:41,421 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:44:41,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-23 22:44:41,423 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-23 22:44:42,002 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-23 22:44:42,003 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4682 ms
+2023-03-23 22:44:43,569 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-23 22:44:43,960 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-23 22:44:45,678 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:44:46,787 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 22:44:47,012 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-23 22:44:47,854 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-23 22:44:47,946 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-23 22:44:47,984 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-23 22:44:48,003 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-23 22:44:48,258 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:44:48,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-03-23 22:44:48,943 INFO org.springframework.boot.StartupInfoLogger [main] Started MyPfeApplication in 12.977 seconds (JVM running for 14.878)
+2023-03-23 22:44:48,950 INFO ma.mypfe.students.MyPfeApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8092/swagger-ui/#/
+	External: 	http://192.168.11.101:8092/swagger-ui/#/
+----------------------------------------------------------
+2023-03-23 22:48:48,740 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:48:48,744 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-23 22:48:48,782 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-23 22:48:56,779 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyPfeApplication using Java 1.8.0_351 on LAPTOP-MHAL7KCU with PID 8552 (D:\JAVA CIGMA\MyPFE\target\classes started by Ayman in D:\JAVA CIGMA\MyPFE)
+2023-03-23 22:48:56,787 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-03-23 22:48:56,788 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-23 22:48:58,889 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 22:48:59,040 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interfaces.
+2023-03-23 22:49:00,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-03-23 22:49:00,826 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:49:00,827 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-23 22:49:00,828 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-23 22:49:01,386 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-23 22:49:01,387 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4480 ms
+2023-03-23 22:49:02,816 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-23 22:49:03,232 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-23 22:49:04,911 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:49:05,997 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 22:49:07,287 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:49:07,344 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-03-23 22:49:07,864 INFO org.springframework.boot.StartupInfoLogger [main] Started MyPfeApplication in 12.184 seconds (JVM running for 13.826)
+2023-03-23 22:49:07,872 INFO ma.mypfe.students.MyPfeApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8092/swagger-ui/#/
+	External: 	http://192.168.11.101:8092/swagger-ui/#/
+----------------------------------------------------------
+2023-03-23 22:49:30,285 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:49:30,289 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-23 22:49:30,320 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-23 22:49:39,042 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 22:49:39,198 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interfaces.
+2023-03-23 22:49:40,830 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-03-23 22:49:40,849 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:49:40,851 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-23 22:49:40,852 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-23 22:49:41,294 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-23 22:49:41,295 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4014 ms
+2023-03-23 22:49:42,622 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-23 22:49:43,011 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-23 22:49:44,463 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:49:45,587 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 22:49:46,862 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:49:46,925 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-03-23 22:51:12,186 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:51:12,192 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-23 22:51:12,216 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-23 22:51:18,499 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyPfeApplication using Java 1.8.0_351 on LAPTOP-MHAL7KCU with PID 19600 (D:\JAVA CIGMA\MyPFE\target\classes started by Ayman in D:\JAVA CIGMA\MyPFE)
+2023-03-23 22:51:18,505 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-03-23 22:51:18,506 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-23 22:51:20,292 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 22:51:20,433 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interfaces.
+2023-03-23 22:51:22,007 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-03-23 22:51:22,027 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:51:22,028 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-23 22:51:22,029 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-23 22:51:22,490 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-23 22:51:22,491 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3832 ms
+2023-03-23 22:51:23,672 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-23 22:51:24,058 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-23 22:51:25,577 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:51:26,650 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 22:51:27,702 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:51:27,743 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-03-23 22:51:28,259 INFO org.springframework.boot.StartupInfoLogger [main] Started MyPfeApplication in 10.758 seconds (JVM running for 12.201)
+2023-03-23 22:51:28,268 INFO ma.mypfe.students.MyPfeApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8092/swagger-ui/#/
+	External: 	http://192.168.11.101:8092/swagger-ui/#/
+----------------------------------------------------------
+2023-03-23 22:52:39,012 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:52:39,019 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-03-23 22:52:39,057 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-03-23 22:52:45,158 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyPfeApplication using Java 1.8.0_351 on LAPTOP-MHAL7KCU with PID 17900 (D:\JAVA CIGMA\MyPFE\target\classes started by Ayman in D:\JAVA CIGMA\MyPFE)
+2023-03-23 22:52:45,165 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-03-23 22:52:45,168 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-03-23 22:52:47,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 22:52:47,220 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interfaces.
+2023-03-23 22:52:48,872 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-03-23 22:52:48,897 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:52:48,899 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-23 22:52:48,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-23 22:52:49,359 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-23 22:52:49,359 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4045 ms
+2023-03-23 22:52:49,793 DEBUG org.hibernate.jpa.internal.util.LogHelper [main] PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/JAVA%20CIGMA/MyPFE/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		ma.mypfe.students.entities.StudentEntity]
+	Mapping files names []
+	Properties []
+2023-03-23 22:52:49,838 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-03-23 22:52:49,842 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2023-03-23 22:52:49,845 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-03-23 22:52:49,927 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-23 22:52:49,930 DEBUG org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2023-03-23 22:52:50,293 DEBUG org.hibernate.service.spi.ServiceBinding [main] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2023-03-23 22:52:50,319 DEBUG org.hibernate.cache.internal.RegionFactoryInitiator [main] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2023-03-23 22:52:50,322 DEBUG org.hibernate.cache.internal.RegionFactoryInitiator [main] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2023-03-23 22:52:50,353 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-23 22:52:50,439 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@3b42121d
+2023-03-23 22:52:50,440 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@3b42121d
+2023-03-23 22:52:50,440 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3b42121d
+2023-03-23 22:52:50,441 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4733f6f5
+2023-03-23 22:52:50,442 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@3453acd2
+2023-03-23 22:52:50,444 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@71b6172c
+2023-03-23 22:52:50,447 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@17b016ac
+2023-03-23 22:52:50,447 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@17b016ac
+2023-03-23 22:52:50,447 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@17b016ac
+2023-03-23 22:52:50,450 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@535b1ae6
+2023-03-23 22:52:50,450 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@535b1ae6
+2023-03-23 22:52:50,451 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@535b1ae6
+2023-03-23 22:52:50,453 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@6f825516
+2023-03-23 22:52:50,453 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@6f825516
+2023-03-23 22:52:50,453 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6f825516
+2023-03-23 22:52:50,456 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@7161457
+2023-03-23 22:52:50,457 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@7161457
+2023-03-23 22:52:50,457 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7161457
+2023-03-23 22:52:50,459 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@76cf841
+2023-03-23 22:52:50,460 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@76cf841
+2023-03-23 22:52:50,460 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@76cf841
+2023-03-23 22:52:50,462 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@2bc7db89
+2023-03-23 22:52:50,463 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@2bc7db89
+2023-03-23 22:52:50,463 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2bc7db89
+2023-03-23 22:52:50,466 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@51a651c1
+2023-03-23 22:52:50,466 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@51a651c1
+2023-03-23 22:52:50,467 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@51a651c1
+2023-03-23 22:52:50,469 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7a6ea47d
+2023-03-23 22:52:50,470 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7a6ea47d
+2023-03-23 22:52:50,472 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@20ead579
+2023-03-23 22:52:50,472 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@20ead579
+2023-03-23 22:52:50,474 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@5f34907b
+2023-03-23 22:52:50,475 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@5f34907b
+2023-03-23 22:52:50,476 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@671ea6ff
+2023-03-23 22:52:50,478 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1b0e9707
+2023-03-23 22:52:50,480 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@287ae90c
+2023-03-23 22:52:50,480 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@287ae90c
+2023-03-23 22:52:50,482 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@1526f71
+2023-03-23 22:52:50,483 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@1526f71
+2023-03-23 22:52:50,485 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@5489b1f7
+2023-03-23 22:52:50,486 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5489b1f7
+2023-03-23 22:52:50,488 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@21c747a
+2023-03-23 22:52:50,489 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@21c747a
+2023-03-23 22:52:50,490 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@252744a1
+2023-03-23 22:52:50,491 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@252744a1
+2023-03-23 22:52:50,493 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@235b4cb8
+2023-03-23 22:52:50,493 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@235b4cb8
+2023-03-23 22:52:50,495 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2fbe26da
+2023-03-23 22:52:50,496 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2fbe26da
+2023-03-23 22:52:50,499 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@106b014e
+2023-03-23 22:52:50,500 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@106b014e
+2023-03-23 22:52:50,507 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3290b1a6
+2023-03-23 22:52:50,508 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3290b1a6
+2023-03-23 22:52:50,512 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@2f80cb79
+2023-03-23 22:52:50,513 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@2f80cb79
+2023-03-23 22:52:50,516 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@250b5e5b
+2023-03-23 22:52:50,517 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@250b5e5b
+2023-03-23 22:52:50,520 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@557b6a37
+2023-03-23 22:52:50,521 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@557b6a37
+2023-03-23 22:52:50,522 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@557b6a37
+2023-03-23 22:52:50,527 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5df63359
+2023-03-23 22:52:50,530 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@71370fec
+2023-03-23 22:52:50,531 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@71370fec
+2023-03-23 22:52:50,532 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@71370fec
+2023-03-23 22:52:50,534 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@f0a66bd
+2023-03-23 22:52:50,537 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@5dfe23e8
+2023-03-23 22:52:50,541 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@104dc1a2
+2023-03-23 22:52:50,542 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@104dc1a2
+2023-03-23 22:52:50,545 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@2792b416
+2023-03-23 22:52:50,546 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2792b416
+2023-03-23 22:52:50,549 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@164642a4
+2023-03-23 22:52:50,550 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@164642a4
+2023-03-23 22:52:50,553 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@6f5bd362
+2023-03-23 22:52:50,553 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6f5bd362
+2023-03-23 22:52:50,557 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2cd388f5
+2023-03-23 22:52:50,558 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2cd388f5
+2023-03-23 22:52:50,559 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7f323b3a
+2023-03-23 22:52:50,564 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@57efc6fd
+2023-03-23 22:52:50,566 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@57efc6fd
+2023-03-23 22:52:50,568 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@57efc6fd
+2023-03-23 22:52:50,572 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@214beff9
+2023-03-23 22:52:50,573 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@214beff9
+2023-03-23 22:52:50,574 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@214beff9
+2023-03-23 22:52:50,579 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@52226e57
+2023-03-23 22:52:50,580 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@3cc30dee
+2023-03-23 22:52:50,584 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@17229821
+2023-03-23 22:52:50,585 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@17229821
+2023-03-23 22:52:50,586 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@17229821
+2023-03-23 22:52:50,591 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@750a04ec
+2023-03-23 22:52:50,592 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@750a04ec
+2023-03-23 22:52:50,592 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@750a04ec
+2023-03-23 22:52:50,594 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@49f3ff41
+2023-03-23 22:52:50,596 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@45b32dfe
+2023-03-23 22:52:50,600 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@4f2d014a
+2023-03-23 22:52:50,600 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4f2d014a
+2023-03-23 22:52:50,601 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@fe09383
+2023-03-23 22:52:50,608 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@3b7c80c6
+2023-03-23 22:52:50,609 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3b7c80c6
+2023-03-23 22:52:50,612 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@6b4fc2d1
+2023-03-23 22:52:50,613 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6b4fc2d1
+2023-03-23 22:52:50,615 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1378eea2
+2023-03-23 22:52:50,617 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5a484ce1
+2023-03-23 22:52:50,621 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@3728a578
+2023-03-23 22:52:50,629 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@1f43cab7
+2023-03-23 22:52:50,630 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1f43cab7
+2023-03-23 22:52:50,631 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7f353a0f
+2023-03-23 22:52:50,631 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7ea2412c
+2023-03-23 22:52:50,632 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1c93b51e
+2023-03-23 22:52:50,632 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7c0f28f8
+2023-03-23 22:52:50,632 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2abc8034
+2023-03-23 22:52:50,633 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@467b0f6e
+2023-03-23 22:52:50,633 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@474179fa
+2023-03-23 22:52:50,633 DEBUG org.hibernate.type.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@420cd102
+2023-03-23 22:52:50,658 DEBUG org.hibernate.boot.internal.BootstrapContextImpl [main] Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@706ddbc8] into BootstrapContext; was [null]
+2023-03-23 22:52:50,658 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@706ddbc8) [was null]
+2023-03-23 22:52:50,660 DEBUG org.hibernate.boot.internal.BootstrapContextImpl [main] Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@7ebe2e47] into BootstrapContext; was [null]
+2023-03-23 22:52:50,660 DEBUG org.hibernate.boot.internal.BootstrapContextImpl [main] Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@609319c3] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6bbab114]
+2023-03-23 22:52:50,682 DEBUG org.hibernate.boot.internal.BootstrapContextImpl [main] Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@706ddbc8]
+2023-03-23 22:52:50,683 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@706ddbc8]
+2023-03-23 22:52:50,721 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2023-03-23 22:52:50,722 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2023-03-23 22:52:50,725 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2023-03-23 22:52:50,726 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2023-03-23 22:52:50,728 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2023-03-23 22:52:50,732 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2023-03-23 22:52:50,734 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2023-03-23 22:52:50,738 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-03-23 22:52:50,741 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2023-03-23 22:52:50,742 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2023-03-23 22:52:50,745 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2023-03-23 22:52:50,747 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2023-03-23 22:52:50,747 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-03-23 22:52:50,749 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2023-03-23 22:52:50,764 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-23 22:52:51,161 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-23 22:52:51,181 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] Database ->
+       name : MySQL
+    version : 5.5.5-10.4.27-MariaDB
+      major : 5
+      minor : 5
+2023-03-23 22:52:51,182 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-j-8.0.31 (Revision: 0c86fc148d567b62266c2302bdad0f1e7a7e4eba)
+      major : 8
+      minor : 0
+2023-03-23 22:52:51,183 DEBUG org.jboss.logging.DelegatingBasicLogger [main] JDBC version : 4.2
+2023-03-23 22:52:51,205 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-23 22:52:51,231 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder [main] JDBC driver metadata reported database stores quoted identifiers in more than one case
+2023-03-23 22:52:51,233 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder [main] IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2023-03-23 22:52:51,271 DEBUG org.hibernate.type.spi.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1a21f43f] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7f0a133d]
+2023-03-23 22:52:51,347 DEBUG org.hibernate.boot.model.relational.Namespace [main] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2023-03-23 22:52:51,381 DEBUG org.hibernate.cfg.AnnotationBinder [main] Binding entity from annotated class: ma.mypfe.students.entities.StudentEntity
+2023-03-23 22:52:51,452 DEBUG org.hibernate.cfg.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2023-03-23 22:52:51,478 DEBUG org.hibernate.cfg.annotations.EntityBinder [main] Import with entity name StudentEntity
+2023-03-23 22:52:51,488 DEBUG org.hibernate.cfg.annotations.EntityBinder [main] Bind entity ma.mypfe.students.entities.StudentEntity on table student
+2023-03-23 22:52:51,518 DEBUG org.hibernate.cfg.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-03-23 22:52:51,522 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] Not known whether passed class name [ma.mypfe.students.entities.StudentEntity] is safe
+2023-03-23 22:52:51,523 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ma.mypfe.students.entities.StudentEntity
+2023-03-23 22:52:51,524 DEBUG org.hibernate.cfg.annotations.PropertyBinder [main] MetadataSourceProcessor property id with lazy=false
+2023-03-23 22:52:51,527 DEBUG org.hibernate.cfg.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ma.mypfe.students.entities.StudentEntity:id]
+2023-03-23 22:52:51,530 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder [main] building SimpleValue for id
+2023-03-23 22:52:51,533 DEBUG org.hibernate.cfg.annotations.PropertyBinder [main] Building property id
+2023-03-23 22:52:51,538 DEBUG org.hibernate.cfg.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2023-03-23 22:52:51,539 DEBUG org.hibernate.cfg.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2023-03-23 22:52:51,539 DEBUG org.hibernate.cfg.annotations.PropertyBinder [main] MetadataSourceProcessor property name with lazy=false
+2023-03-23 22:52:51,539 DEBUG org.hibernate.cfg.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [ma.mypfe.students.entities.StudentEntity:name]
+2023-03-23 22:52:51,539 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder [main] building SimpleValue for name
+2023-03-23 22:52:51,540 DEBUG org.hibernate.cfg.annotations.PropertyBinder [main] Building property name
+2023-03-23 22:52:51,550 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder [main] Starting fillSimpleValue for id
+2023-03-23 22:52:51,551 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder [main] Starting fillSimpleValue for name
+2023-03-23 22:52:51,555 DEBUG org.hibernate.mapping.PrimaryKey [main] Forcing column [id] to be non-null as it is part of the primary key for table [student]
+2023-03-23 22:52:51,681 DEBUG org.hibernate.internal.SessionFactoryImpl [main] Building session factory
+2023-03-23 22:52:51,683 DEBUG org.hibernate.cfg.Settings [main] SessionFactory name : null
+2023-03-23 22:52:51,683 DEBUG org.hibernate.cfg.Settings [main] Automatic flush during beforeCompletion(): enabled
+2023-03-23 22:52:51,684 DEBUG org.hibernate.cfg.Settings [main] Automatic session close at end of transaction: disabled
+2023-03-23 22:52:51,684 DEBUG org.hibernate.cfg.Settings [main] Statistics: disabled
+2023-03-23 22:52:51,684 DEBUG org.hibernate.cfg.Settings [main] Deleted entity synthetic identifier rollback: disabled
+2023-03-23 22:52:51,684 DEBUG org.hibernate.cfg.Settings [main] Default entity-mode: pojo
+2023-03-23 22:52:51,685 DEBUG org.hibernate.cfg.Settings [main] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2023-03-23 22:52:51,685 DEBUG org.hibernate.cfg.Settings [main] Allow initialization of lazy state outside session : disabled
+2023-03-23 22:52:51,686 DEBUG org.hibernate.cfg.Settings [main] Using BatchFetchStyle : LEGACY
+2023-03-23 22:52:51,687 DEBUG org.hibernate.cfg.Settings [main] Default batch fetch size: -1
+2023-03-23 22:52:51,687 DEBUG org.hibernate.cfg.Settings [main] Maximum outer join fetch depth: 2
+2023-03-23 22:52:51,688 DEBUG org.hibernate.cfg.Settings [main] Default null ordering: NONE
+2023-03-23 22:52:51,688 DEBUG org.hibernate.cfg.Settings [main] Order SQL updates by primary key: disabled
+2023-03-23 22:52:51,688 DEBUG org.hibernate.cfg.Settings [main] Order SQL inserts for batching: disabled
+2023-03-23 22:52:51,688 DEBUG org.hibernate.cfg.Settings [main] multi-tenancy strategy : NONE
+2023-03-23 22:52:51,688 DEBUG org.hibernate.cfg.Settings [main] JTA Track by Thread: enabled
+2023-03-23 22:52:51,689 DEBUG org.hibernate.cfg.Settings [main] Query language substitutions: {}
+2023-03-23 22:52:51,689 DEBUG org.hibernate.cfg.Settings [main] Named query checking : enabled
+2023-03-23 22:52:51,690 DEBUG org.hibernate.cfg.Settings [main] Second-level cache: disabled
+2023-03-23 22:52:51,690 DEBUG org.hibernate.cfg.Settings [main] Second-level query cache: disabled
+2023-03-23 22:52:51,690 DEBUG org.hibernate.cfg.Settings [main] Second-level query cache factory: null
+2023-03-23 22:52:51,691 DEBUG org.hibernate.cfg.Settings [main] Second-level cache region prefix: null
+2023-03-23 22:52:51,691 DEBUG org.hibernate.cfg.Settings [main] Optimize second-level cache for minimal puts: disabled
+2023-03-23 22:52:51,692 DEBUG org.hibernate.cfg.Settings [main] Structured second-level cache entries: disabled
+2023-03-23 22:52:51,693 DEBUG org.hibernate.cfg.Settings [main] Second-level cache direct-reference entries: disabled
+2023-03-23 22:52:51,694 DEBUG org.hibernate.cfg.Settings [main] Automatic eviction of collection cache: disabled
+2023-03-23 22:52:51,695 DEBUG org.hibernate.cfg.Settings [main] JDBC batch size: 15
+2023-03-23 22:52:51,696 DEBUG org.hibernate.cfg.Settings [main] JDBC batch updates for versioned data: enabled
+2023-03-23 22:52:51,697 DEBUG org.hibernate.cfg.Settings [main] Scrollable result sets: enabled
+2023-03-23 22:52:51,697 DEBUG org.hibernate.cfg.Settings [main] Wrap result sets: disabled
+2023-03-23 22:52:51,697 DEBUG org.hibernate.cfg.Settings [main] JDBC3 getGeneratedKeys(): enabled
+2023-03-23 22:52:51,698 DEBUG org.hibernate.cfg.Settings [main] JDBC result set fetch size: null
+2023-03-23 22:52:51,698 DEBUG org.hibernate.cfg.Settings [main] Connection release mode: ON_CLOSE
+2023-03-23 22:52:51,698 DEBUG org.hibernate.cfg.Settings [main] Generate SQL with comments: disabled
+2023-03-23 22:52:51,698 DEBUG org.hibernate.cfg.Settings [main] JPA compliance - query : disabled
+2023-03-23 22:52:51,699 DEBUG org.hibernate.cfg.Settings [main] JPA compliance - closed-handling : disabled
+2023-03-23 22:52:51,699 DEBUG org.hibernate.cfg.Settings [main] JPA compliance - lists : disabled
+2023-03-23 22:52:51,699 DEBUG org.hibernate.cfg.Settings [main] JPA compliance - transactions : disabled
+2023-03-23 22:52:51,786 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl [main] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-03-23 22:52:51,788 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl [main] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-03-23 22:52:51,809 DEBUG org.hibernate.internal.SessionFactoryImpl [main] Session factory constructed with filter configurations : {}
+2023-03-23 22:52:51,810 DEBUG org.hibernate.internal.SessionFactoryImpl [main] Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=1.8, file.encoding.pkg=sun.io, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@4fb57fb3, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQL8Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=D:\java\jre\lib\charsets.jar;D:\java\jre\lib\deploy.jar;D:\java\jre\lib\ext\access-bridge-64.jar;D:\java\jre\lib\ext\cldrdata.jar;D:\java\jre\lib\ext\dnsns.jar;D:\java\jre\lib\ext\jaccess.jar;D:\java\jre\lib\ext\jfxrt.jar;D:\java\jre\lib\ext\localedata.jar;D:\java\jre\lib\ext\nashorn.jar;D:\java\jre\lib\ext\sunec.jar;D:\java\jre\lib\ext\sunjce_provider.jar;D:\java\jre\lib\ext\sunmscapi.jar;D:\java\jre\lib\ext\sunpkcs11.jar;D:\java\jre\lib\ext\zipfs.jar;D:\java\jre\lib\javaws.jar;D:\java\jre\lib\jce.jar;D:\java\jre\lib\jfr.jar;D:\java\jre\lib\jfxswt.jar;D:\java\jre\lib\jsse.jar;D:\java\jre\lib\management-agent.jar;D:\java\jre\lib\plugin.jar;D:\java\jre\lib\resources.jar;D:\java\jre\lib\rt.jar;D:\JAVA CIGMA\MyPFE\target\classes;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.7\spring-boot-starter-web-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.7\spring-boot-starter-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot\2.7.7\spring-boot-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.7\spring-boot-autoconfigure-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.7\spring-boot-starter-logging-2.7.7.jar;C:\Users\Ayman\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\Ayman\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\Ayman\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\Ayman\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Ayman\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\Ayman\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-core\5.3.24\spring-core-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-jcl\5.3.24\spring-jcl-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.7\spring-boot-starter-json-2.7.7.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.4\jackson-datatype-jdk8-2.13.4.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.4\jackson-datatype-jsr310-2.13.4.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.4\jackson-module-parameter-names-2.13.4.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.7\spring-boot-starter-tomcat-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.70\tomcat-embed-core-9.0.70.jar;C:\Users\Ayman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.70\tomcat-embed-el-9.0.70.jar;C:\Users\Ayman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.70\tomcat-embed-websocket-9.0.70.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-web\5.3.24\spring-web-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-beans\5.3.24\spring-beans-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-webmvc\5.3.24\spring-webmvc-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-aop\5.3.24\spring-aop-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-context\5.3.24\spring-context-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-expression\5.3.24\spring-expression-5.3.24.jar;C:\Users\Ayman\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.7.7\spring-boot-starter-data-jpa-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.7.7\spring-boot-starter-aop-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Ayman\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.7.7\spring-boot-starter-jdbc-2.7.7.jar;C:\Users\Ayman\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-jdbc\5.3.24\spring-jdbc-5.3.24.jar;C:\Users\Ayman\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Ayman\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Ayman\.m2\repository\org\hibernate\hibernate-core\5.6.14.Final\hibernate-core-5.6.14.Final.jar;C:\Users\Ayman\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Ayman\.m2\repository\net\bytebuddy\byte-buddy\1.12.20\byte-buddy-1.12.20.jar;C:\Users\Ayman\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Ayman\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\Ayman\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Ayman\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.7\jaxb-runtime-2.3.7.jar;C:\Users\Ayman\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Ayman\.m2\repository\org\glassfish\jaxb\txw2\2.3.7\txw2-2.3.7.jar;C:\Users\Ayman\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Ayman\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Ayman\.m2\repository\org\springframework\data\spring-data-jpa\2.7.6\spring-data-jpa-2.7.6.jar;C:\Users\Ayman\.m2\repository\org\springframework\data\spring-data-commons\2.7.6\spring-data-commons-2.7.6.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-orm\5.3.24\spring-orm-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-tx\5.3.24\spring-tx-5.3.24.jar;C:\Users\Ayman\.m2\repository\org\springframework\spring-aspects\5.3.24\spring-aspects-5.3.24.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-boot-starter\3.0.0\springfox-boot-starter-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-oas\3.0.0\springfox-oas-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\swagger\core\v3\swagger-annotations\2.1.2\swagger-annotations-2.1.2.jar;C:\Users\Ayman\.m2\repository\io\swagger\core\v3\swagger-models\2.1.2\swagger-models-2.1.2.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-spi\3.0.0\springfox-spi-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-schema\3.0.0\springfox-schema-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-core\3.0.0\springfox-core-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-spring-web\3.0.0\springfox-spring-web-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\github\classgraph\classgraph\4.8.83\classgraph-4.8.83.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-spring-webflux\3.0.0\springfox-spring-webflux-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-swagger-common\3.0.0\springfox-swagger-common-3.0.0.jar;C:\Users\Ayman\.m2\repository\org\mapstruct\mapstruct\1.3.1.Final\mapstruct-1.3.1.Final.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-data-rest\3.0.0\springfox-data-rest-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-bean-validators\3.0.0\springfox-bean-validators-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-swagger2\3.0.0\springfox-swagger2-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\Ayman\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\Ayman\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Ayman\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Ayman\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Ayman\.m2\repository\org\springframework\plugin\spring-plugin-metadata\2.0.0.RELEASE\spring-plugin-metadata-2.0.0.RELEASE.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-swagger-ui\3.0.0\springfox-swagger-ui-3.0.0.jar;C:\Users\Ayman\.m2\repository\io\springfox\springfox-spring-webmvc\3.0.0\springfox-spring-webmvc-3.0.0.jar;D:\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, catalina.useNaming=false, user.timezone=Africa/Casablanca, jakarta.persistence.sharedCache.mode=UNSPECIFIED, os.name=Windows 10, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), user.country=FR, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=D:\Java\jre\bin, sun.java.command=ma.mypfe.students.MyPfeApplication, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@6b063470, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\Ayman, user.language=fr, java.specification.vendor=Oracle Corporation, java.home=D:\Java\jre, file.separator=\, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, sun.boot.class.path=D:\Java\jre\lib\resources.jar;D:\Java\jre\lib\rt.jar;D:\Java\jre\lib\jsse.jar;D:\Java\jre\lib\jce.jar;D:\Java\jre\lib\charsets.jar;D:\Java\jre\lib\jfr.jar;D:\Java\jre\classes, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_351-b10, user.name=Ayman, path.separator=;, os.version=10.0, java.endorsed.dirs=D:\Java\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\Ayman\AppData\Local\Temp\, catalina.home=C:\Users\Ayman\AppData\Local\Temp\tomcat.8092.5428355481282090631, java.version=1.8.0_351, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy, user.dir=D:\JAVA CIGMA\MyPFE, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=17900, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\Ayman\AppData\Local\Temp\tomcat.8092.5428355481282090631, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@226d5af0, java.library.path=D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Microsoft VS Code\bin;C:\Program Files (x86)\dotnet\;D:\apache-maven-3.8.7-bin\apache-maven-3.8.7\bin;D:\Git\cmd;D:\nodeJs\;C:\Users\Ayman\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Ayman\AppData\Roaming\npm;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.351-b10, java.specification.maintenance.version=4, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, java.ext.dirs=D:\Java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=52.0}
+2023-03-23 22:52:51,831 DEBUG org.hibernate.secure.spi.JaccIntegrator [main] Skipping JACC integration as it was not enabled
+2023-03-23 22:52:51,834 DEBUG org.hibernate.internal.SessionFactoryImpl [main] Instantiated session factory
+2023-03-23 22:52:51,834 DEBUG org.hibernate.type.spi.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1a21f43f] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@20cff21e]
+2023-03-23 22:52:52,015 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] Not known whether passed class name [ma.mypfe.students.entities.StudentEntity] is safe
+2023-03-23 22:52:52,016 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ma.mypfe.students.entities.StudentEntity
+2023-03-23 22:52:52,564 DEBUG org.hibernate.persister.entity.AbstractEntityPersister [main] Static SQL for entity: ma.mypfe.students.entities.StudentEntity
+2023-03-23 22:52:52,565 DEBUG org.hibernate.persister.entity.AbstractEntityPersister [main]  Version select: select id from student where id =?
+2023-03-23 22:52:52,566 DEBUG org.hibernate.persister.entity.AbstractEntityPersister [main]  Snapshot select: select studentent_.id, studentent_.name as name2_0_ from student studentent_ where studentent_.id=?
+2023-03-23 22:52:52,566 DEBUG org.jboss.logging.DelegatingBasicLogger [main]  Insert 0: insert into student (name, id) values (?, ?)
+2023-03-23 22:52:52,567 DEBUG org.jboss.logging.DelegatingBasicLogger [main]  Update 0: update student set name=? where id=?
+2023-03-23 22:52:52,569 DEBUG org.jboss.logging.DelegatingBasicLogger [main]  Delete 0: delete from student where id=?
+2023-03-23 22:52:52,690 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68e47e7]
+2023-03-23 22:52:52,695 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker [main] Visiting attribute path : name
+2023-03-23 22:52:52,697 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2023-03-23 22:52:52,730 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2023-03-23 22:52:52,755 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter [main] LoadPlan(entity=ma.mypfe.students.entities.StudentEntity)
+    - Returns
+       - EntityReturnImpl(entity=ma.mypfe.students.entities.StudentEntity, querySpaceUid=<gen:0>, path=ma.mypfe.students.entities.StudentEntity)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ma.mypfe.students.entities.StudentEntity)
+          - SQL table alias mapping - studentent0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2023-03-23 22:52:52,760 DEBUG org.hibernate.loader.entity.plan.EntityLoader [main] Static select for entity ma.mypfe.students.entities.StudentEntity [NONE]: select studentent0_.id as id1_0_0_, studentent0_.name as name2_0_0_ from student studentent0_ where studentent0_.id=?
+2023-03-23 22:52:52,977 DEBUG org.hibernate.mapping.Table [main] No alter strings for table : hibernate_sequence
+2023-03-23 22:52:52,978 DEBUG org.hibernate.mapping.Table [main] No alter strings for table : student
+2023-03-23 22:52:52,980 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 22:52:52,982 DEBUG org.hibernate.query.spi.NamedQueryRepository [main] Checking 0 named HQL queries
+2023-03-23 22:52:52,983 DEBUG org.hibernate.query.spi.NamedQueryRepository [main] Checking 0 named SQL queries
+2023-03-23 22:52:52,993 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl [main] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-03-23 22:52:53,004 DEBUG org.hibernate.internal.SessionFactoryRegistry [main] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7910f355
+2023-03-23 22:52:53,005 DEBUG org.hibernate.internal.SessionFactoryRegistry [main] Registering SessionFactory: 8264c3c3-b70e-4736-87c4-4f517755f67d (<unnamed>)
+2023-03-23 22:52:53,006 DEBUG org.hibernate.internal.SessionFactoryRegistry [main] Not binding SessionFactory to JNDI, no JNDI name configured
+2023-03-23 22:52:53,006 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 22:52:53,444 DEBUG org.hibernate.stat.internal.StatisticsInitiator [main] Statistics initialized [enabled=false]
+2023-03-23 22:52:54,238 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 22:52:54,646 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-03-23 22:52:55,109 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-23 22:52:55,209 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-03-23 22:52:55,240 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-03-23 22:52:55,251 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-23 22:52:55,495 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-03-23 22:52:55,555 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-03-23 22:52:56,212 INFO org.springframework.boot.StartupInfoLogger [main] Started MyPfeApplication in 12.073 seconds (JVM running for 13.568)
+2023-03-23 22:52:56,221 INFO ma.mypfe.students.MyPfeApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8092/swagger-ui/#/
+	External: 	http://192.168.11.101:8092/swagger-ui/#/
+----------------------------------------------------------
+2023-03-23 23:03:13,842 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8092-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 23:03:13,842 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-23 23:03:13,843 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8092-exec-2] Detected StandardServletMultipartResolver
+2023-03-23 23:03:13,843 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8092-exec-2] Detected AcceptHeaderLocaleResolver
+2023-03-23 23:03:13,844 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8092-exec-2] Detected FixedThemeResolver
+2023-03-23 23:03:13,846 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8092-exec-2] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@61836cd9
+2023-03-23 23:03:13,846 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8092-exec-2] Detected org.springframework.web.servlet.support.SessionFlashMapManager@45311a99
+2023-03-23 23:03:13,847 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-23 23:03:13,847 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] Completed initialization in 4 ms
+2023-03-23 23:03:13,869 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-2] GET "/", parameters={}
+2023-03-23 23:03:13,886 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-2] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-03-23 23:03:13,892 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8092-exec-2] Resource not found
+2023-03-23 23:03:13,894 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] Completed 404 NOT_FOUND
+2023-03-23 23:03:13,904 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-2] "ERROR" dispatch for GET "/error", parameters={}
+2023-03-23 23:03:13,907 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-03-23 23:03:13,956 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8092-exec-2] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-03-23 23:03:13,964 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] Exiting from "ERROR" dispatch, status 404
+2023-03-23 23:03:14,234 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-1] GET "/favicon.ico", parameters={}
+2023-03-23 23:03:14,236 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-1] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-03-23 23:03:14,240 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8092-exec-1] Resource not found
+2023-03-23 23:03:14,241 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-1] Completed 404 NOT_FOUND
+2023-03-23 23:03:14,242 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-1] "ERROR" dispatch for GET "/error", parameters={}
+2023-03-23 23:03:14,243 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-23 23:03:14,276 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-1] Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:03:14,278 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-1] Writing [{timestamp=Thu Mar 23 23:03:14 WET 2023, status=404, error=Not Found, path=/favicon.ico}]
+2023-03-23 23:03:14,344 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-1] Exiting from "ERROR" dispatch, status 404
+2023-03-23 23:04:19,429 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] GET "/api/v1/student", parameters={}
+2023-03-23 23:04:19,433 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-5] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-03-23 23:04:19,437 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-8092-exec-5] Resource not found
+2023-03-23 23:04:19,438 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-5] Completed 404 NOT_FOUND
+2023-03-23 23:04:19,439 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] "ERROR" dispatch for GET "/error", parameters={}
+2023-03-23 23:04:19,441 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-03-23 23:04:19,445 DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver [http-nio-8092-exec-5] Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-03-23 23:04:19,446 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-5] Exiting from "ERROR" dispatch, status 404
+2023-03-23 23:05:13,969 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-8] GET "/api/v1/student/all", parameters={}
+2023-03-23 23:05:13,970 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-8] Mapped to ma.mypfe.students.controllers.StudentController#selectAll()
+2023-03-23 23:05:13,975 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-8] start selectAll methode
+2023-03-23 23:05:13,976 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-8] start selectAll methode
+2023-03-23 23:05:14,008 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-8] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:05:14,009 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-8] begin
+2023-03-23 23:05:14,067 DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl [http-nio-8092-exec-8] Rendered criteria query -> select generatedAlias0 from StudentEntity as generatedAlias0
+2023-03-23 23:05:14,105 DEBUG org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8092-exec-8] QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@66a686d1
+2023-03-23 23:05:14,161 DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl [http-nio-8092-exec-8] parse() - HQL: select generatedAlias0 from ma.mypfe.students.entities.StudentEntity as generatedAlias0
+2023-03-23 23:05:14,181 DEBUG org.hibernate.hql.internal.ast.ErrorTracker [http-nio-8092-exec-8] throwQueryException() : no errors
+2023-03-23 23:05:14,200 DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl [http-nio-8092-exec-8] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'ma'
+       |     |  |  |  |  \-[IDENT] Node: 'mypfe'
+       |     |  |  |  \-[IDENT] Node: 'students'
+       |     |  |  \-[IDENT] Node: 'entities'
+       |     |  \-[IDENT] Node: 'StudentEntity'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2023-03-23 23:05:14,242 DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker [http-nio-8092-exec-8] select << begin [level=1, statement=select]
+2023-03-23 23:05:14,270 DEBUG org.hibernate.hql.internal.ast.tree.FromElement [http-nio-8092-exec-8] FromClause{level=1} : ma.mypfe.students.entities.StudentEntity (generatedAlias0) -> studentent0_
+2023-03-23 23:05:14,272 DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode [http-nio-8092-exec-8] Resolved : generatedAlias0 -> studentent0_.id
+2023-03-23 23:05:14,275 DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker [http-nio-8092-exec-8] select : finishing up [level=1, statement=select]
+2023-03-23 23:05:14,276 DEBUG org.hibernate.hql.internal.ast.HqlSqlWalker [http-nio-8092-exec-8] processQuery() :  ( SELECT ( {select clause} studentent0_.id ) ( FromClause{level=1} student studentent0_ ) )
+2023-03-23 23:05:14,288 DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor [http-nio-8092-exec-8] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity StudentEntity): [student]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(ma.mypfe.students.entities.StudentEntity)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2023-03-23 23:05:14,295 DEBUG org.hibernate.hql.internal.ast.util.JoinProcessor [http-nio-8092-exec-8] Using FROM fragment [student studentent0_]
+2023-03-23 23:05:14,295 DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker [http-nio-8092-exec-8] select >> end [level=1, statement=select]
+2023-03-23 23:05:14,296 DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl [http-nio-8092-exec-8] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (student)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'studentent0_.id as id1_0_' {alias=generatedAlias0, className=ma.mypfe.students.entities.StudentEntity, tableAlias=studentent0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'studentent0_.name as name2_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[studentent0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'student studentent0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=student,tableAlias=studentent0_,origin=null,columns={,className=ma.mypfe.students.entities.StudentEntity}}
+
+2023-03-23 23:05:14,297 DEBUG org.hibernate.hql.internal.ast.ErrorTracker [http-nio-8092-exec-8] throwQueryException() : no errors
+2023-03-23 23:05:14,308 DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl [http-nio-8092-exec-8] HQL: select generatedAlias0 from ma.mypfe.students.entities.StudentEntity as generatedAlias0
+2023-03-23 23:05:14,309 DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl [http-nio-8092-exec-8] SQL: select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:05:14,309 DEBUG org.hibernate.hql.internal.ast.ErrorTracker [http-nio-8092-exec-8] throwQueryException() : no errors
+2023-03-23 23:05:14,350 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-8] select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:05:14,441 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-8] committing
+2023-03-23 23:05:14,449 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-8] Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:05:14,449 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-8] Writing [[]]
+2023-03-23 23:05:14,452 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-8] Completed 200 OK
+2023-03-23 23:07:08,704 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-1] GET "/api/v1/student/all", parameters={}
+2023-03-23 23:07:08,705 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-1] Mapped to ma.mypfe.students.controllers.StudentController#selectAll()
+2023-03-23 23:07:08,706 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-1] start selectAll methode
+2023-03-23 23:07:08,706 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-1] start selectAll methode
+2023-03-23 23:07:08,708 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-1] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:07:08,709 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-1] begin
+2023-03-23 23:07:08,711 DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl [http-nio-8092-exec-1] Rendered criteria query -> select generatedAlias0 from StudentEntity as generatedAlias0
+2023-03-23 23:07:08,712 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-1] select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:07:08,715 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-1] committing
+2023-03-23 23:07:08,717 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:07:08,718 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-1] Writing [[]]
+2023-03-23 23:07:08,719 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-1] Completed 200 OK
+2023-03-23 23:09:33,848 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] POST "/api/v1/student/add", parameters={}
+2023-03-23 23:09:33,850 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-5] Mapped to ma.mypfe.students.controllers.StudentController#save(StudentDto)
+2023-03-23 23:09:33,854 DEBUG org.springframework.web.method.support.InvocableHandlerMethod [http-nio-8092-exec-5] Could not resolve parameter [0] in public java.lang.Long ma.mypfe.students.controllers.StudentController.save(ma.mypfe.students.dtos.StudentDto): Content type 'text/plain;charset=UTF-8' not supported
+2023-03-23 23:09:33,859 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8092-exec-5] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2023-03-23 23:09:33,860 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-5] Completed 415 UNSUPPORTED_MEDIA_TYPE
+2023-03-23 23:09:33,861 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] "ERROR" dispatch for POST "/error", parameters={}
+2023-03-23 23:09:33,861 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-03-23 23:09:33,863 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:09:33,863 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] Writing [{timestamp=Thu Mar 23 23:09:33 WET 2023, status=415, error=Unsupported Media Type, path=/api/v1/stud (truncated)...]
+2023-03-23 23:09:33,866 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-5] Exiting from "ERROR" dispatch, status 415
+2023-03-23 23:10:36,084 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-6] POST "/api/v1/student/add", parameters={}
+2023-03-23 23:10:36,085 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-6] Mapped to ma.mypfe.students.controllers.StudentController#save(StudentDto)
+2023-03-23 23:10:36,194 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-6] Read "application/json;charset=UTF-8" to [StudentDto{id=null, name='saad'}]
+2023-03-23 23:10:36,212 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-6] start save methode dto :StudentDto{id=null, name='saad'}
+2023-03-23 23:10:36,213 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-6] start save methode dto :StudentDto{id=null, name='saad'}
+2023-03-23 23:10:36,214 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-6] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:10:36,215 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-6] begin
+2023-03-23 23:10:36,255 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-6] select next_val as id_val from hibernate_sequence for update
+2023-03-23 23:10:36,259 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-6] update hibernate_sequence set next_val= ? where next_val=?
+2023-03-23 23:10:36,275 DEBUG org.hibernate.event.internal.AbstractSaveEventListener [http-nio-8092-exec-6] Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2023-03-23 23:10:36,328 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-6] committing
+2023-03-23 23:10:36,330 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-6] Processing flush-time cascades
+2023-03-23 23:10:36,333 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-6] Dirty checking collections
+2023-03-23 23:10:36,346 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-6] Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2023-03-23 23:10:36,346 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-6] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-03-23 23:10:36,350 DEBUG org.hibernate.internal.util.EntityPrinter [http-nio-8092-exec-6] Listing entities:
+2023-03-23 23:10:36,351 DEBUG org.hibernate.internal.util.EntityPrinter [http-nio-8092-exec-6] ma.mypfe.students.entities.StudentEntity{name=saad, id=1}
+2023-03-23 23:10:36,380 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-6] insert into student (name, id) values (?, ?)
+2023-03-23 23:10:36,402 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:10:36,403 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-6] Writing [1]
+2023-03-23 23:10:36,406 DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl [http-nio-8092-exec-6] HHH000420: Closing un-released batch
+2023-03-23 23:10:36,407 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-6] Completed 200 OK
+2023-03-23 23:11:04,494 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-10] GET "/api/v1/student/all", parameters={}
+2023-03-23 23:11:04,495 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-10] Mapped to ma.mypfe.students.controllers.StudentController#selectAll()
+2023-03-23 23:11:04,497 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-10] start selectAll methode
+2023-03-23 23:11:04,497 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-10] start selectAll methode
+2023-03-23 23:11:04,499 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-10] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:11:04,500 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-10] begin
+2023-03-23 23:11:04,502 DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl [http-nio-8092-exec-10] Rendered criteria query -> select generatedAlias0 from StudentEntity as generatedAlias0
+2023-03-23 23:11:04,504 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-10] select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:11:04,510 DEBUG org.jboss.logging.DelegatingBasicLogger [http-nio-8092-exec-10] Result set row: 0
+2023-03-23 23:11:04,526 DEBUG org.hibernate.loader.Loader [http-nio-8092-exec-10] Result row: EntityKey[ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:11:04,536 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-10] Resolving attributes for [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:11:04,537 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-10] Processing attribute `name` : value = saad
+2023-03-23 23:11:04,538 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-10] Attribute (`name`)  - enhanced for lazy-loading? - false
+2023-03-23 23:11:04,542 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-10] Done materializing entity [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:11:04,544 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-10] committing
+2023-03-23 23:11:04,546 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:11:04,547 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-10] Writing [[StudentDto{id=1, name='saad'}]]
+2023-03-23 23:11:04,570 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-10] Completed 200 OK
+2023-03-23 23:12:29,914 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-2] GET "/api/v1/student/all", parameters={}
+2023-03-23 23:12:29,914 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-2] Mapped to ma.mypfe.students.controllers.StudentController#selectAll()
+2023-03-23 23:12:29,916 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-2] start selectAll methode
+2023-03-23 23:12:29,916 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-2] start selectAll methode
+2023-03-23 23:12:29,919 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-2] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:12:29,920 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-2] begin
+2023-03-23 23:12:29,922 DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl [http-nio-8092-exec-2] Rendered criteria query -> select generatedAlias0 from StudentEntity as generatedAlias0
+2023-03-23 23:12:29,923 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-2] select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:12:29,925 DEBUG org.jboss.logging.DelegatingBasicLogger [http-nio-8092-exec-2] Result set row: 0
+2023-03-23 23:12:29,926 DEBUG org.hibernate.loader.Loader [http-nio-8092-exec-2] Result row: EntityKey[ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:12:29,927 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-2] Resolving attributes for [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:12:29,928 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-2] Processing attribute `name` : value = saad
+2023-03-23 23:12:29,928 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-2] Attribute (`name`)  - enhanced for lazy-loading? - false
+2023-03-23 23:12:29,929 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-2] Done materializing entity [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:12:29,930 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-2] committing
+2023-03-23 23:12:29,932 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-2] Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:12:29,933 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-2] Writing [[StudentDto{id=1, name='saad'}]]
+2023-03-23 23:12:29,938 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-2] Completed 200 OK
+2023-03-23 23:18:33,877 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] DELETE "/api/v1/student/delete/1", parameters={}
+2023-03-23 23:18:33,879 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-5] Mapped to ma.mypfe.students.controllers.StudentController#delete(Long)
+2023-03-23 23:18:33,896 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-5] start delete methode dto
+2023-03-23 23:18:33,897 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-5] start delete methode
+2023-03-23 23:18:33,899 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-5] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:18:33,900 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-5] begin
+2023-03-23 23:18:33,923 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-5] select studentent0_.id as id1_0_0_, studentent0_.name as name2_0_0_ from student studentent0_ where studentent0_.id=?
+2023-03-23 23:18:33,938 DEBUG org.hibernate.loader.plan.exec.process.internal.EntityReferenceInitializerImpl [http-nio-8092-exec-5] On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2023-03-23 23:18:33,942 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-5] Resolving attributes for [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:18:33,944 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-5] Processing attribute `name` : value = saad
+2023-03-23 23:18:33,945 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-5] Attribute (`name`)  - enhanced for lazy-loading? - false
+2023-03-23 23:18:33,945 DEBUG org.hibernate.engine.internal.TwoPhaseLoad [http-nio-8092-exec-5] Done materializing entity [ma.mypfe.students.entities.StudentEntity#1]
+2023-03-23 23:18:33,947 DEBUG org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader [http-nio-8092-exec-5] Done entity load : ma.mypfe.students.entities.StudentEntity#1
+2023-03-23 23:18:33,958 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-5] committing
+2023-03-23 23:18:33,958 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-5] Processing flush-time cascades
+2023-03-23 23:18:33,959 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-5] Dirty checking collections
+2023-03-23 23:18:33,959 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-5] Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2023-03-23 23:18:33,960 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener [http-nio-8092-exec-5] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-03-23 23:18:33,960 DEBUG org.hibernate.internal.util.EntityPrinter [http-nio-8092-exec-5] Listing entities:
+2023-03-23 23:18:33,961 DEBUG org.hibernate.internal.util.EntityPrinter [http-nio-8092-exec-5] ma.mypfe.students.entities.StudentEntity{name=saad, id=1}
+2023-03-23 23:18:33,962 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-5] delete from student where id=?
+2023-03-23 23:18:33,980 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:18:33,981 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-5] Writing [true]
+2023-03-23 23:18:33,983 DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl [http-nio-8092-exec-5] HHH000420: Closing un-released batch
+2023-03-23 23:18:33,984 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-5] Completed 200 OK
+2023-03-23 23:18:58,515 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-7] GET "/api/v1/student/all", parameters={}
+2023-03-23 23:18:58,516 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8092-exec-7] Mapped to ma.mypfe.students.controllers.StudentController#selectAll()
+2023-03-23 23:18:58,517 DEBUG ma.mypfe.students.controllers.StudentController [http-nio-8092-exec-7] start selectAll methode
+2023-03-23 23:18:58,517 DEBUG ma.mypfe.students.services.StudentServiceImpl [http-nio-8092-exec-7] start selectAll methode
+2023-03-23 23:18:58,518 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-7] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-03-23 23:18:58,518 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-7] begin
+2023-03-23 23:18:58,520 DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl [http-nio-8092-exec-7] Rendered criteria query -> select generatedAlias0 from StudentEntity as generatedAlias0
+2023-03-23 23:18:58,521 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8092-exec-7] select studentent0_.id as id1_0_, studentent0_.name as name2_0_ from student studentent0_
+2023-03-23 23:18:58,523 DEBUG org.hibernate.engine.transaction.internal.TransactionImpl [http-nio-8092-exec-7] committing
+2023-03-23 23:18:58,525 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8092-exec-7] Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-03-23 23:18:58,526 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8092-exec-7] Writing [[]]
+2023-03-23 23:18:58,527 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8092-exec-7] Completed 200 OK
