@@ -5,17 +5,23 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Student")
 public class StudentEntity{
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    @EmbeddedId
+    private StudentId studentId;
     private String name;
 
-    public long getId() {
-        return id;
+    @Embedded
+    @AttributeOverrides({
+            @AttributeOverride(name = "rue" ,column = @Column(name = "rueStudent")),
+            @AttributeOverride(name = "avenue" ,column = @Column(name = "avenueStudent")),
+    })
+    private Adresse adresse;
+
+    public StudentId getStudentId() {
+        return studentId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setStudentId(StudentId studentId) {
+        this.studentId = studentId;
     }
 
     public String getName(){
@@ -29,7 +35,7 @@ public class StudentEntity{
     @Override
     public String toString() {
         return "StudentEntity{" +
-                "id=" + id +
+                "studentId=" + studentId +
                 ", name='" + name + '\'' +
                 '}';
     }

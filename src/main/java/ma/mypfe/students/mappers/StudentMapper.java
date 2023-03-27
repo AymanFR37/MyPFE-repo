@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class StudentMapper {
      public StudentEntity convertDtoToEntity(StudentDto dto){
           StudentEntity entity = new StudentEntity();
-          entity.setId(dto.getId());
+          //entity.setId(dto.getId());
           entity.setName(dto.getName());
           return entity;
      }
@@ -22,7 +22,7 @@ public class StudentMapper {
 
      public StudentDto convertEntityToDto(StudentEntity entity){
           StudentDto dto = new StudentDto();
-          dto.setId(entity.getId());
+          //dto.setId(entity.getId());
           dto.setName(entity.getName());
           return dto;
      }
