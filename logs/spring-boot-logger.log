@@ -241,3 +241,39 @@ Caused by: org.hibernate.AnnotationException: No identifier specified for entity
 2023-03-26 03:44:42,000 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-03-26 03:44:42,005 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-03-26 03:44:42,025 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-04-03 17:25:23,238 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyPfeApplication using Java 1.8.0_351 on LAPTOP-MHAL7KCU with PID 13100 (D:\JAVA CIGMA\MyPFE\target\classes started by Ayman in D:\JAVA CIGMA\MyPFE)
+2023-04-03 17:25:23,244 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.7, Spring v5.3.24
+2023-04-03 17:25:23,245 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2023-04-03 17:25:25,117 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-03 17:25:25,253 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interfaces.
+2023-04-03 17:25:26,695 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8092 (http)
+2023-04-03 17:25:26,715 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8092"]
+2023-04-03 17:25:26,717 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-04-03 17:25:26,717 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-03 17:25:27,304 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-04-03 17:25:27,305 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3940 ms
+2023-04-03 17:25:27,783 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-03 17:25:27,911 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-04-03 17:25:28,279 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-03 17:25:28,510 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-03 17:25:28,865 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-03 17:25:28,920 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-03 17:25:30,371 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-03 17:25:30,387 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 17:25:31,370 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-03 17:25:31,535 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 11 mappings in 'requestMappingHandlerMapping'
+2023-04-03 17:25:32,135 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-03 17:25:32,240 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2023-04-03 17:25:32,272 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2023-04-03 17:25:32,289 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-03 17:25:32,536 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8092"]
+2023-04-03 17:25:32,595 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8092 (http) with context path ''
+2023-04-03 17:25:33,145 INFO org.springframework.boot.StartupInfoLogger [main] Started MyPfeApplication in 10.934 seconds (JVM running for 12.927)
+2023-04-03 17:25:33,157 INFO ma.mypfe.students.MyPfeApplication [main] Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8092/swagger-ui/#/
+	External: 	http://127.0.0.1:8092/swagger-ui/#/
+----------------------------------------------------------
+2023-04-03 17:28:03,158 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-03 17:28:03,165 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-04-03 17:28:03,196 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

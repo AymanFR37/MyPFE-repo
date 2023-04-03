@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "Student")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class StudentEntity{
     @EmbeddedId
     private StudentId studentId;
