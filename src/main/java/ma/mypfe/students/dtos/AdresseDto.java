@@ -1,9 +1,7 @@
-package ma.mypfe.students.entities;
+package ma.mypfe.students.dtos;
 
-import javax.persistence.Embeddable;
 
-@Embeddable
-public class Adresse {
+public class AdresseDto {
     private String rue;
 
     private String avenue;
@@ -36,7 +34,7 @@ public class Adresse {
 
     @Override
     public String toString() {
-        return "Adresse{" +
+        return "AdresseDto{" +
                 "rue='" + rue + '\'' +
                 ", avenue='" + avenue + '\'' +
                 ", number='" + number + '\'' +

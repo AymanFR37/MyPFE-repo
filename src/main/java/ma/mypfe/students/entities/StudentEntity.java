@@ -1,10 +1,10 @@
 package ma.mypfe.students.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "Student")
-@Inheritance(strategy = InheritanceType.JOINED)
 public class StudentEntity{
     @EmbeddedId
     private StudentId studentId;
@@ -16,6 +16,26 @@ public class StudentEntity{
             @AttributeOverride(name = "avenue" ,column = @Column(name = "avenueStudent")),
     })
     private Adresse adresse;
+
+    @ManyToMany(cascade = {CascadeType.MERGE,CascadeType.PERSIST},fetch = FetchType.LAZY)
+    @JoinTable(name = "list_student_cours")
+    private List<CourseEntity> courses;
+
+    public List<CourseEntity> getCourses() {
+        return courses;
+    }
+
+    public void setCourses(List<CourseEntity> courses) {
+        this.courses = courses;
+    }
+
+    public Adresse getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(Adresse adresse) {
+        this.adresse = adresse;
+    }
 
     public StudentId getStudentId() {
         return studentId;
@@ -38,6 +58,8 @@ public class StudentEntity{
         return "StudentEntity{" +
                 "studentId=" + studentId +
                 ", name='" + name + '\'' +
+                ", adresse=" + adresse +
+                ", courses=" + courses +
                 '}';
     }
 }

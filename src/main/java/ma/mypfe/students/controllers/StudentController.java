@@ -2,6 +2,7 @@ package ma.mypfe.students.controllers;
 
 
 import ma.mypfe.students.dtos.StudentDto;
+import ma.mypfe.students.dtos.StudentIdDto;
 import ma.mypfe.students.services.StudentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,10 +35,11 @@ public class StudentController {
         return studentService.update(dto);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public Boolean delete(@PathVariable("id") Long id) {
+    @DeleteMapping("/delete/{id}/{code}")
+    public Boolean delete(@PathVariable("id") long id,@PathVariable("code") String code) {
         LOGGER.debug("start delete methode dto");
-        return studentService.deleteById(id);
+        StudentIdDto idcomp = new StudentIdDto(id,code);
+        return studentService.deleteById(idcomp);
     }
 
     @GetMapping("/all")
@@ -46,5 +48,10 @@ public class StudentController {
         return studentService.selectAll();
     }
 
-
+    @GetMapping("/{id}/{code}")
+    public StudentDto selectById(@PathVariable("id") long id,@PathVariable("code") String code) {
+        LOGGER.debug("start select method by id {} , code {} ",id,code);
+        StudentIdDto idcompose =new StudentIdDto(id,code);
+        return studentService.selectById(idcompose);
+    }
 }

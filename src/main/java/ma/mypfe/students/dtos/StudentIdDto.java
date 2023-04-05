@@ -1,19 +1,25 @@
-package ma.mypfe.students.entities;
+package ma.mypfe.students.dtos;
 
-import javax.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
-@Embeddable
-public class StudentId implements Serializable{
+public class StudentIdDto implements Serializable{
     private long id;
     private String code;
+
+    public StudentIdDto(long id, String code) {
+        this.id = id;
+        this.code = code;
+    }
+
+    public StudentIdDto() {
+    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        StudentId studentId = (StudentId) o;
+        StudentIdDto studentId = (StudentIdDto) o;
         return id == studentId.id && Objects.equals(code, studentId.code);
     }
 
@@ -40,7 +46,7 @@ public class StudentId implements Serializable{
 
     @Override
     public String toString() {
-        return "StudentId{" +
+        return "StudentIdDto{" +
                 "id=" + id +
                 ", code='" + code + '\'' +
                 '}';

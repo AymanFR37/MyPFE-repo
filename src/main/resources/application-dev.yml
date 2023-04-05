@@ -18,5 +18,5 @@ logging:
   level:
     org.springframework.web: DEBUG
     ma.mypfe.students: DEBUG
-    org.hibernate: INFO
+    org.hibernate: ERROR
 
